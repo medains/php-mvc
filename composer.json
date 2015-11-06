@@ -1,0 +1,14 @@
+{
+    "name": "php-mvc",
+    "description": "Bare bones PHP MVC framework",
+    "require": {
+    },
+    "config": {
+        "vendor-dir": "external/"
+    },
+    "autoload": {
+        "psr-4": {
+            "Acme\\": "src/"
+        }
+    }
+}
