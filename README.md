@@ -7,6 +7,7 @@ Run 'composer install' to put in composer and set up the autoloader
 Then you can run this with public as the DocumentRoot in apache, or run 'php -S localhost:8000' in
 the public directory.
 
+```
 ├── composer.json
 ├── public
 │   └── index.php
@@ -24,7 +25,9 @@ the public directory.
     ├── default.phtml
     ├── footer.phtml
     └── header.phtml
+```
 
+```
 public/index         - Code entrypoint
 src/Application      - Routing and basic logic
 src/Controller/Error - Error handler, basic output for 404 and 500
@@ -35,4 +38,5 @@ src/View             - A general view for rendering templates
 views/default.phtml  - The basic template
 views/header.phtml   - Header template
 views/footer.phtml   - Footer template
+```
 
